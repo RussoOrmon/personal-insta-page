@@ -9,10 +9,16 @@ body {
 	color: #000000;
 	background-color: #424242;
 
-	background: #F8D353;
+	/*background: #F8D353;
 	background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
 	background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
-	background: linear-gradient(top left, #F8D353, #FF5C5A);
+	background: linear-gradient(top left, #F8D353, #FF5C5A);*/
+
+	background: #34e89e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #0c4e68, #0db26d);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #0c4e68, #0db26d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
 
 /*	background: #B0D09C;
 	background: -webkit-linear-gradient(top left, #B0D09C, #4B8244);
